@@ -1,0 +1,82 @@
+*{
+    font-family: "Montserrat";
+    background-color:white;
+}
+
+h1{
+    color: black;
+}
+
+header{
+    text-align:left;
+    display: flex;
+    justify-content:center;
+}
+
+input{
+    background-color: white;
+    margin-right: 5px;
+}
+
+select{
+    background-color: white;
+    margin-right: 5px;
+}
+
+button{
+    border-radius: 20px;
+    color:white;
+    background-color: black;
+}
+
+#folks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div img{
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+a{
+    font-size: 12px;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+.person{
+    margin: 10px;
+}
+
+.name{
+    margin: 10px;
+
+}
+
+.button {
+    height: 25px;
+    background: black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 25px;
+    color: #2FD566;;
+    font-weight: bold;
+    position: relative;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#more{
+    visibility: hidden;
+    width: 80px;
+    height:50px;
+    border-radius: 30px;
+}

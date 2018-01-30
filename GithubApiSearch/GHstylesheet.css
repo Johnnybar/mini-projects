@@ -1,0 +1,52 @@
+
+input{
+    background-color: white;
+}
+
+
+
+.repo{
+
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+
+}
+
+.pic img{
+    align-items: flex-start;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    cursor: pointer;
+
+
+}
+.nameAndInfo{
+    align-items: flex-end;
+    margin-left: 2vw;
+    cursor: pointer;
+
+}
+
+.eachCommit{
+    font-size: 15px;
+margin-left: 3vw;
+
+}
+
+#dialog-form{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.search-ui{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
