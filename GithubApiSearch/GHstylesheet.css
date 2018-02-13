@@ -3,6 +3,13 @@ input{
     background-color: white;
 }
 
+.logo-container{
+    display: flex;
+    justify-content: center
+}
+.logo{
+
+}
 
 
 .repo{
