@@ -23,6 +23,8 @@ function checkScroll(){
 btn.on('click', function() {
     var inp = $("input").val()
     var type = $("select").val();
+    console.log(inp, type);
+    
     $("#folks").empty();
 
     $.ajax({
